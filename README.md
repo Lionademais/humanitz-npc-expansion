@@ -32,34 +32,69 @@ Checksums: `SHA256SUMS.txt`. Source code will be added to this repository later.
 ## What it brings
 
 ### Living communities
-- Factions with their own leader, government, food stores, weapons and flag. Iron-fisted rule, councils or assemblies, with coups and elections.
-- Walled settlements built to fit the land: gates on the natural approach, towers on high ground, houses full of real containers that keep what's inside, and safes locked with codes.
-- People come and go. Newcomers arrive over time, the sick are treated or sent away, the hungry head out on risky expeditions.
-- A spokesperson at the gate, a quartermaster who trades, guards on patrol, a watchman in the tower, and a dog that barks at strangers.
+- Factions with their own leader, government, food stores, weapons and flag. Iron-fisted rule, councils or assemblies, with coups and elections. Communities, nomads and raiders, different in every world.
+- Settlements built from the game's own building pieces and shaped by the land: palisade forts, farms, camps, caravans, trading posts, villages and raider dens. Walls follow the terrain, water and cliffs do the job of a wall, gates sit on the natural approach and towers on high ground.
+- People with names, faces and jobs: a spokesperson at the gate, a quartermaster who trades, guards on patrol, a watchman in the tower, a night watch by the fire and a dog that barks at strangers. They change shifts with the time of day.
+- Real food stores. When the pantry runs low, people go hungry and it shows: expeditions that don't always come back, requests, trades, neighbors sharing food, raiders preying on the weak.
+- People come and go: newcomers arrive over time, the sick are treated or sent away, and someone bitten and cast out may end up at your gate asking for help.
+- After an attack, a settlement shows the damage (broken walls, fallen towers, graves) and slowly rebuilds itself.
 - It all keeps happening when you're not around.
 
-### Relationships that matter
+### Settlements you can walk into
+- Gates and doors that open and close, guarded by people who decide whether you come in.
+- Houses full of real containers that keep what's inside: food in the kitchen, medicine in the infirmary, tools in the workshop, ammo at the headquarters.
+- Locked doors and storerooms you can pick or pry open, and safes with codes written on a note that someone is carrying.
+- Steal and get seen, and the guards come and the gate closes on you. Steal unseen, and they only suspect.
+
+### Talking to people
+- A new conversation screen with portrait, relationship bars, health and mood, and a history of what each person has said to you.
+- Ask about their past, their likes, their skills, the people who matter to them, and the news. Every person has a favorite gift, and the wrong gift can offend.
+- Tend their wounds, threaten them, or trade with them, with prices that depend on how they feel about you. The trader tells you what people are saying about you.
+- Ask a stranger to explore with you: they walk at your side for a while and trust grows as you stay together.
+- Recruit almost anyone, if they trust you more than their own people. Some refuse and tell you why.
+- Give orders to your members: follow me, stay here, keep watch, move to another camp. Followers ride in your car with you. Some refuse an order out of fear or principle.
+
+### Relationships and diplomacy
 - Every person and every faction remembers you: trust, affection, respect and favors owed, slowly fading if you disappear.
-- Rumors travel between settlements.
-- Trade, donate, propose agreements, ask for reinforcements, ask a friend to strike a rival, or recruit someone, if they trust you more than their own people.
-- Radio contact with the communities whose frequency you've earned.
+- Rumors travel between settlements. Help one and its neighbors hear about it. Betray one and they hear that too.
+- Through the spokesperson or a radio: donate supplies, propose agreements and alliances, ask for reinforcements, ask a friend to strike a rival, ask for someone to join you, or ask how things are going.
+- The world reaches out too: requests for food, threats, deserters, broken agreements, calls for help.
+- Family ties across settlements: news of relatives living elsewhere, and a relative in your clan makes an invitation easier.
 
 ### Danger and consequence
-- Raids on your clan, with threats, warnings, scouts and real attacks. Sieges between factions that you can join or just watch.
-- Attack a community and all of it answers: the able take up arms, guards leave their posts, the vulnerable run for shelter. Wipe them out and their neighbors will never forget.
-- Take prisoners: tie them up, interrogate them, lock them in your clan's cell, offer them a place, or let them go.
+- Raids on your clan, with threats, warnings, scouts and real attacks. Kill the scout and you buy time.
+- Sieges between factions that you can join or just watch. Help a friendly settlement hold and they won't forget it. Let it fall and its doors are open to looters.
+- Attack a community and all of it answers: the able take up arms, guards leave their posts, the watchman fires from the tower, the vulnerable run for shelter. Wipe them out and their neighbors will never forget.
+- Scavengers from other clans roaming the map on multiplayer servers. Only the one who pulled the trigger takes the blame, and witnesses matter.
+
+### Prisoners
+- Make people surrender, tie them up with rope and take them with you.
+- Feed them, interrogate them, lock them in your clan's cell, offer them a place in your group, or let them go. They can try to escape.
+
+### New buildings for your clan
+Built through the game's own building menu (Community tab), with the hammer and the game's materials, like any other piece:
+- **Gathering fire:** at night, people off duty gather around it, tell their stories and hold vigils for the dead. It needs firewood.
+- **Task board:** assign who does what on each shift, read the base's notices and choose who runs the board.
+- **Infirmary:** beds for the worst injured or infected, with a caretaker from your people.
+- **Clan cemetery:** the names of your dead, visited by those who grieve.
+- **Training area:** members practice their craft, and a master can mentor an apprentice.
+- **Prison cell:** where your prisoners stay.
+- Members assigned to keep watch climb your watchtowers and see trouble coming sooner.
 
 ### A clan that is a community
-- Build a gathering fire, a task board, an infirmary, a clan cemetery, a training area and a prison cell, with the game's own building menu.
-- Your people bond, fall in love, become rivals, start families, grieve, train their crafts, and sometimes leave when they're unhappy.
+- Your people bond, fall in love, become rivals, start families and grieve their losses.
+- They train their crafts and become experts and masters. Two who get along well do better work together.
+- Unhappy members may leave. Jealousy, grief and fear show in what they say.
+- Choose which chests your members use for food and supplies.
 - Keep the base clean, or live with trash, rats, flies, sickness and the zombies the smell brings in.
-- Visitors knock at your gate. Answer them, or don't.
+- Visitors knock at your gate. Let them in, turn them away, or help them on their way.
+- A clan diary where everything that happens becomes a line of your story.
 
 ### And more
-- Over forty new personality traits (likes, fears, ambitions, values), discovered through conversation.
-- A new conversation screen with portraits, relationship bars, topics, gifts and orders.
-- A clan diary where everything that happens becomes a line of your story.
-- Admin settings in game to tune events, raids, sieges, memory and more for your world.
+- Over forty new personality traits (likes, fears, ambitions, values), discovered through conversation and by watching people.
+- Radio: listen for rumors, call out to survivors (sometimes the wrong people answer), call a trader, or talk to the communities whose frequency you've earned. Storms bring static.
+- Speech bubbles over people's heads, and a new Community tab with overview, members, relations and clan.
+- Admin settings in game to tune events, raids, sieges, conflicts, memory, newcomers, sickness and more for your world. By default nothing from the mod is marked on the map; an admin can turn that on.
 - Ten languages, following your game language. Players with different languages on the same server each see their own.
 
 ## Installation
