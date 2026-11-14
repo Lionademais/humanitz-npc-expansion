@@ -12,7 +12,7 @@ None of it shows you a number. You find out how people feel by talking to them a
 
 ## Downloads
 
-- **Nexus Mods:** [nexusmods.com/games/humanitz/mods/180](https://www.nexusmods.com/games/humanitz/mods/180)
+- **Nexus Mods:** [nexusmods.com/humanitz/mods/180](https://www.nexusmods.com/humanitz/mods/180)
 - **GitHub:** [latest release](https://github.com/Lionademais/humanitz-npc-expansion/releases/latest) (1.1.1)
 
 | File | For |
@@ -39,11 +39,11 @@ Full list in the [release notes](https://github.com/Lionademais/humanitz-npc-exp
 
 ## Requirements
 - **Single-player and hosted games:** this mod alone. Everyone who joins a hosted game needs it too.
-- **Dedicated servers:** the server needs NPC Expansion and [**NPC Mechanics**](https://www.nexusmods.com/games/humanitz/mods/171) (native 1.0.11 or pak-only 1.1.3). Players need both clients: NPC Mechanics 1.0.9 and NPC Expansion. If the server is missing NPC Mechanics, players get a warning on screen.
+- **Dedicated servers:** the server needs NPC Expansion and [**NPC Mechanics**](https://www.nexusmods.com/humanitz/mods/171) (native 1.0.11 or pak-only 1.1.3). Players need both clients: NPC Mechanics 1.0.9 and NPC Expansion. If the server is missing NPC Mechanics, players get a warning on screen.
 - The server and every player need the **same NPC Expansion version**.
 - Made for the HumanitZ update of 2026-11-12. After a game update, a new version of the mod may be needed.
 - Back up your saves before installing, updating or removing.
-**Optional:** if you also use "Player and Vehicle Camera - Unlocked", grab the camera compatibility patch from the [NPC Mechanics page](https://www.nexusmods.com/games/humanitz/mods/171) (optional file; it needs the NPC Mechanics client).
+**Optional:** if you also use "Player and Vehicle Camera - Unlocked", grab the camera compatibility patch from the [NPC Mechanics page](https://www.nexusmods.com/humanitz/mods/171) (optional file; it needs the NPC Mechanics client).
 
 ## What it brings
 
