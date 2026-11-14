@@ -23,6 +23,7 @@ None of it shows you a number. You find out how people feel by talking to them a
 |---|---|
 | `NPCExpansion_Client_v1.1.1.zip` | every player (single-player, hosted and dedicated) |
 | `NPCExpansion_DedicatedServer_v1.1.1.zip` | dedicated server only (needs [NPC Mechanics on Dedicated Server](https://github.com/Lionademais/humanitz-npc-community-fix)) |
+| `NPCExpansion_CameraFreedomPatch_NoMechanics_v1.0.0.zip` | optional: players with "Player and Vehicle Camera - Unlocked" and without the NPC Mechanics client (see below) |
 
 Checksums: `SHA256SUMS.txt`. Source code will be added to this repository later.
 
@@ -50,12 +51,12 @@ Full list in the [release notes](https://github.com/Lionademais/humanitz-npc-exp
 
 ## Requirements
 - **Single-player and hosted games:** this mod alone. Everyone who joins a hosted game needs it too.
-- **Dedicated servers:** the server needs NPC Expansion and [**NPC Mechanics**](https://www.nexusmods.com/humanitz/mods/171) (native 1.0.11 or pak-only 1.1.3). Players need both clients: NPC Mechanics 1.0.9 and NPC Expansion. If the server is missing NPC Mechanics, players get a warning on screen.
+- **Dedicated servers:** [**NPC Mechanics**](https://www.nexusmods.com/humanitz/mods/171) + NPC Expansion, both on the server and on every player's game (see Installation).
 - The server and every player need the **same NPC Expansion version**.
 - Made for HumanitZ 1.1Z (the update of 2026-11-12). After a game update, a new version of the mod may be needed.
 - Back up your saves before installing, updating or removing.
 
-**Optional:** if you also use "Player and Vehicle Camera - Unlocked", grab the camera compatibility patch from the [NPC Mechanics page](https://www.nexusmods.com/humanitz/mods/171) (optional file; it needs the NPC Mechanics client).
+**Optional:** using "Player and Vehicle Camera - Unlocked"? See [Camera mod patch](#optional-camera-mod-patch) below.
 
 ## What it brings
 
@@ -150,16 +151,43 @@ Built through the game's own building menu (Community tab), with the hammer and 
 - Ten languages, following your game language. Players with different languages on the same server each see their own.
 
 ## Installation
-- **Client:** install with Vortex, or copy NPCExpansion_Client_P.pak to ...\HumanitZ\HumanitZ\Content\Paks\~mods\ (create ~mods if it doesn't exist). Keep only one copy of the pak.
-- **Dedicated server (stopped):** extract the server zip into the server's root folder (the one that contains HumanitZServer). The four NPCExpansion_Server_P files (.pak, .ucas, .utoc, .sig) go together to HumanitZServer/Content/Paks/. NPC Mechanics must be installed on the server too.
-- The mod keeps its own data in Saved/SaveGames/&lt;world&gt;_HZX.sav (with a backup copy next to it). Nothing is written into the game's own save.
-- Disable the mod before joining servers that don't run it. A player without the Expansion client, or with another version, is disconnected when joining a server that runs it, with nothing damaged.
-- Full instructions are in LEIA-ME.txt inside each zip (English + Portuguese).
+
+### Single-player or hosted game
+1. Install the **NPC Expansion - Client** file: with Vortex ("Mod Manager Download"), or by hand, copying `NPCExpansion_Client_P.pak` to `HumanitZ\HumanitZ\Content\Paks\~mods\` (create the ~mods folder if it doesn't exist).
+2. If you host, everyone who joins your game installs the same client.
+
+That's all. NPC Mechanics is not needed here.
+
+### Dedicated server
+It works on dedicated servers: install **NPC Mechanics** and **NPC Expansion** on the server **and** on every player's game.
+- **On the server:** the server part of [NPC Mechanics](https://www.nexusmods.com/humanitz/mods/171) (Pak-Only 1.1.3 or Native 1.0.11, only one of them) **+** the **NPC Expansion - Dedicated Server** file.
+- **On every player's game:** the NPC Mechanics client 1.0.9 **+** the NPC Expansion client. Both go to ~mods (or Vortex), as above.
+
+Server steps:
+1. Stop the server.
+2. Install NPC Mechanics on the server, following its page.
+3. Extract the NPC Expansion - Dedicated Server zip into the server's root folder (the one that contains the HumanitZServer folder). The four NPCExpansion_Server_P files (.pak, .ucas, .utoc, .sig) end up together in HumanitZServer/Content/Paks/. With a hosting panel, just upload those four files to that folder.
+4. Start the server.
+
+### Good to know
+- The server and every player need the same NPC Expansion version. A player without the client, or with another version, is disconnected when joining, with nothing damaged.
+- If the server is missing NPC Mechanics, players see a warning on screen.
+- The mod keeps its own data in `Saved/SaveGames/<world>_HZX.sav` (with a backup copy next to it). The game's own save is not touched. Back it up together with your saves.
+- Disable the mod before joining servers that don't run it.
+- Step-by-step instructions are also in LEIA-ME.txt inside each zip (English + Portuguese).
 
 ## Updating from 1.0.0
-- Replace the mod's files (the client in Vortex; on a stopped server, the four files). On a dedicated server, update NPC Mechanics too (native 1.0.11 or pak-only 1.1.3, client 1.0.9).
-- Your world carries over: the first time it opens, the mod keeps a copy of the old save (&lt;world&gt;_HZX_v1.sav) and converts it by itself.
-- Every player needs the same version as the server.
+1. **Single-player or hosted:** update the client (in Vortex, or replace the pak in ~mods).
+2. **Dedicated server:** stop the server, replace the four NPCExpansion_Server_P files and update NPC Mechanics on the server (Pak-Only 1.1.3 or Native 1.0.11). Every player updates both clients (NPC Mechanics 1.0.9 and NPC Expansion 1.1.1).
+3. Open your world as usual: it carries over. The first time, the mod keeps a copy of the old save (`<world>_HZX_v1.sav`) and converts it by itself.
+
+## Optional: camera mod patch
+For players who use [Player and Vehicle Camera - Unlocked](https://www.nexusmods.com/humanitz/mods/106) by XEM122. That mod's character file is a copy from before the game's NPC update: with it, the game itself loses NPC following and the NPC command wheel. Use one of these two patches instead of it, never both:
+
+- **Without the NPC Mechanics client** (single-player or hosted games): `NPCExpansion_CameraFreedomPatch_NoMechanics_v1.0.0.zip`, in the [latest release](https://github.com/Lionademais/humanitz-npc-expansion/releases/latest) and as an optional file on the [Nexus page](https://www.nexusmods.com/humanitz/mods/180). It is the current game character file with only the same on-foot camera changes.
+- **With the NPC Mechanics client** (dedicated servers): the Camera Freedom compatibility patch of [NPC Mechanics](https://www.nexusmods.com/humanitz/mods/171).
+
+Put the patch `.pak` in `HumanitZ\Content\Paks\~mods` and remove `PlayerCameraFreedom_P.pak` (the vehicle camera file of that mod can stay). Client only; after a game update, wait for a new version of the patch. Idea and camera values by XEM122.
 
 ## Uninstall
 - Server: with the server stopped, delete the four NPCExpansion_Server_P files and **keep** &lt;world&gt;_HZX.sav (and its backup). Client: disable it in Vortex or remove the pak from ~mods.
