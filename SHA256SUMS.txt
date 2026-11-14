@@ -1,8 +1,8 @@
 # SHA256 checksums - NPC Expansion 1.1.1
 
 ## Zips
-bdf34e75f7b6f8ebdca07f54711d99e0494afe134800bb01769cfe76a8e6f93a  NPCExpansion_Client_v1.1.1.zip
-852846bbfce81359460472960e97b61e31ff63079c1c825cd7145f4b84bed22a  NPCExpansion_DedicatedServer_v1.1.1.zip
+08544eb13ad9ef9e0d2517491e2e71815eded873a0f8d9bf32813b0560454b29  NPCExpansion_Client_v1.1.1.zip
+f62d21408d3f8493eba58b89cd63b2461a96e82b4a2a7c2455313296640c5383  NPCExpansion_DedicatedServer_v1.1.1.zip
 
 ## Inside NPCExpansion_Client_v1.1.1.zip
 23741bfc6f39ef4b4cda9912d60cb6ca3e0354700966422bc11821a872740263  LEIA-ME.txt
@@ -14,5 +14,5 @@ b1e3c8e706b65424f227749e0fd121f3195f06552835bee9e5f4b96461bb6b1b  NPCExpansion_C
 7b8ef4725b4e34de0827a44f5df0269ac115185a205f77286ab46a1e281d8515  HumanitZServer/Content/Paks/NPCExpansion_Server_P.sig
 3d2fa0cd04727585b63a1f383938f0d5287d9d76a692f112b2b7c8783f9f987c  HumanitZServer/Content/Paks/NPCExpansion_Server_P.ucas
 47128d21df7c27b737f7336f799f15be8d63c4c251c03f6ee00543ce7a822550  HumanitZServer/Content/Paks/NPCExpansion_Server_P.utoc
-e4d92c89a4742360b224b53ed2533b425bfc63908bd3f7c8311981ace1249283  LEIA-ME.txt
+f2af7c61e49579de3424836860df3ed2e3b6dbfef2869556dd22fbdcc81fe655  LEIA-ME.txt
 656e15d17fcf1cc41007f467428fafaccade9891299183ca11e61a7a99537010  OFL_Manrope.txt
