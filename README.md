@@ -10,24 +10,40 @@ And your own clan stops being a list of workers. Your people make friends, fall 
 
 None of it shows you a number. You find out how people feel by talking to them and watching what they do.
 
-
 ## Downloads
 
 - **Nexus Mods:** [nexusmods.com/games/humanitz/mods/180](https://www.nexusmods.com/games/humanitz/mods/180)
-- **GitHub:** [latest release](https://github.com/Lionademais/humanitz-npc-expansion/releases/latest)
+- **GitHub:** [latest release](https://github.com/Lionademais/humanitz-npc-expansion/releases/latest) (1.1.1)
 
 | File | For |
 |---|---|
-| `NPCExpansion_Client_v1.0.0.zip` | every player (single-player, hosted and dedicated) |
-| `NPCExpansion_DedicatedServer_v1.0.0.zip` | dedicated server only (needs [NPC Mechanics on Dedicated Server](https://github.com/Lionademais/humanitz-npc-community-fix)) |
+| `NPCExpansion_Client_v1.1.1.zip` | every player (single-player, hosted and dedicated) |
+| `NPCExpansion_DedicatedServer_v1.1.1.zip` | dedicated server only (needs [NPC Mechanics on Dedicated Server](https://github.com/Lionademais/humanitz-npc-community-fix)) |
 
 Checksums: `SHA256SUMS.txt`. Source code will be added to this repository later.
 
-## Requirements - please read before downloading
-- **Single-player and hosted games:** only the **NPC Expansion client** (the host and everyone who joins). Nothing else is needed.
-- **Dedicated server only:** the server needs [NPC Mechanics on Dedicated Server](https://www.nexusmods.com/games/humanitz/mods/171) **and** the NPC Expansion server file. Players need **both clients**: NPC Mechanics 1.0.8 and NPC Expansion.
-- Made for the HumanitZ update of 2026-10-30 (1.1X). After a game update, a new version of the mod may be needed.
-- Back up your saves before installing or removing.
+## New in 1.1
+- **Clan life you can see:** members and residents follow a daily routine around the base, bonds form much sooner, and there is romance, marriage, clan anniversaries and a summary of what changed while you were away.
+- **Hygiene:** everyone gets dirty and showers at the base, and the new Latrine is one you actually step into and sit in, with a door you open and close.
+- **Horses, cars and dogs:** send a member home by car or on horseback, take a dog, horse or car on gathering tasks, go on group expeditions from the Task Board, and let a follower ride behind you on your horse.
+- **Followers:** a new command wheel to tell them to follow close, wait, defend, attack or avoid fights.
+- **Food, seasons and weather:** clan rations and feasts, a vegetable garden, seasons that change how communities eat, and weather that weighs on everyone's mood.
+- **Fears and trauma:** fears born from what happened fade with time, and a brush with death can leave a trauma, even tied to the place where it happened.
+- **Communities that change:** factions can split or be taken over from within, lend and borrow food, and refugees come asking for shelter at your gate.
+- **Justice:** hidden food, a fight that hurts someone or a betrayal becomes a case, and you decide what happens to the accused.
+- **Random events** at your base, out in the world and in the communities.
+- **New buildings:** Latrine, Car Spot and Gate Motor, with no limit per base.
+- **Save safety:** the mod's save is versioned and backed up before any conversion.
+
+Full list in the [release notes](https://github.com/Lionademais/humanitz-npc-expansion/releases/tag/v1.1.1) and on the Nexus page (Logs tab).
+
+## Requirements
+- **Single-player and hosted games:** this mod alone. Everyone who joins a hosted game needs it too.
+- **Dedicated servers:** the server needs NPC Expansion and [**NPC Mechanics**](https://www.nexusmods.com/games/humanitz/mods/171) (native 1.0.11 or pak-only 1.1.3). Players need both clients: NPC Mechanics 1.0.9 and NPC Expansion. If the server is missing NPC Mechanics, players get a warning on screen.
+- The server and every player need the **same NPC Expansion version**.
+- Made for the HumanitZ update of 2026-11-12. After a game update, a new version of the mod may be needed.
+- Back up your saves before installing, updating or removing.
+**Optional:** if you also use "Player and Vehicle Camera - Unlocked", grab the camera compatibility patch from the [NPC Mechanics page](https://www.nexusmods.com/games/humanitz/mods/171) (optional file; it needs the NPC Mechanics client).
 
 ## What it brings
 
@@ -52,7 +68,7 @@ Checksums: `SHA256SUMS.txt`. Source code will be added to this repository later.
 - Tend their wounds, threaten them, or trade with them, with prices that depend on how they feel about you. The trader tells you what people are saying about you.
 - Ask a stranger to explore with you: they walk at your side for a while and trust grows as you stay together.
 - Recruit almost anyone, if they trust you more than their own people. Some refuse and tell you why.
-- Give orders to your members: follow me, stay here, keep watch, move to another camp. Followers ride in your car with you. Some refuse an order out of fear or principle.
+- Give orders to your members: follow me, stay here, keep watch, move to another camp, go back to base by car or on horseback. Followers ride in your car or behind you on your horse. Some refuse an order out of fear or principle.
 
 ### Relationships and diplomacy
 - Every person and every faction remembers you: trust, affection, respect and favors owed, slowly fading if you disappear.
@@ -72,21 +88,24 @@ Checksums: `SHA256SUMS.txt`. Source code will be added to this repository later.
 - Feed them, interrogate them, lock them in your clan's cell, offer them a place in your group, or let them go. They can try to escape.
 
 ### New buildings for your clan
-Built through the game's own building menu (Community tab), with the hammer and the game's materials, like any other piece:
-- **Gathering fire:** at night, people off duty gather around it, tell their stories and hold vigils for the dead. It needs firewood.
-- **Task board:** assign who does what on each shift, read the base's notices and choose who runs the board.
+Built through the game's own building menu (Community tab), with the hammer and the game's materials, like any other piece. No limit per base: every extra building adds capacity.
+- **Gathering fire:** at night, people off duty gather around it, tell their stories and hold vigils for the dead. Feasts and weddings happen around it. It needs firewood.
+- **Task board:** assign who does what on each shift, send group expeditions, choose who may take from each chest, set the clan ration and feasts, and read the base's notices.
 - **Infirmary:** beds for the worst injured or infected, with a caretaker from your people.
-- **Clan cemetery:** the names of your dead, visited by those who grieve.
+- **Clan cemetery:** the names of your dead, each with an epitaph from their life, visited by those who grieve.
 - **Training area:** members practice their craft, and a master can mentor an apprentice.
 - **Prison cell:** where your prisoners stay.
+- **Latrine:** step inside, sit down and close the door. Without one, the base gets dirty faster.
+- **Car spot:** where your clan's cars park when they come home.
+- **Gate motor:** opens the gate by itself for your clan's cars and horses. It needs power.
 - Members assigned to keep watch climb your watchtowers and see trouble coming sooner.
 
 ### A clan that is a community
-- Your people bond, fall in love, become rivals, start families and grieve their losses.
+- Your people bond, fall in love, become rivals, start families and grieve their losses. You can court one of them yourself, and even marry.
 - They train their crafts and become experts and masters. Two who get along well do better work together.
 - Unhappy members may leave. Jealousy, grief and fear show in what they say.
-- Choose which chests your members use for food and supplies.
-- Keep the base clean, or live with trash, rats, flies, sickness and the zombies the smell brings in.
+- Choose which chests your members use for food and supplies, and who may take from each one.
+- Everyone gets dirty and showers at the base. Keep it clean, or live with trash, rats, flies, sickness and the zombies the smell brings in.
 - Visitors knock at your gate. Let them in, turn them away, or help them on their way.
 - A clan diary where everything that happens becomes a line of your story.
 
@@ -101,29 +120,38 @@ Built through the game's own building menu (Community tab), with the hammer and 
 - **Client:** install with Vortex, or copy NPCExpansion_Client_P.pak to ...\HumanitZ\HumanitZ\Content\Paks\~mods\ (create ~mods if it doesn't exist). Keep only one copy of the pak.
 - **Dedicated server (stopped):** extract the server zip into the server's root folder (the one that contains HumanitZServer). The four NPCExpansion_Server_P files (.pak, .ucas, .utoc, .sig) go together to HumanitZServer/Content/Paks/. NPC Mechanics must be installed on the server too.
 - The mod keeps its own data in Saved/SaveGames/&lt;world&gt;_HZX.sav (with a backup copy next to it). Nothing is written into the game's own save.
-- Disable the mod before joining servers that don't run it. A player without the Expansion client is disconnected when joining a server that runs it.
+- Disable the mod before joining servers that don't run it. A player without the Expansion client, or with another version, is disconnected when joining a server that runs it, with nothing damaged.
 - Full instructions are in LEIA-ME.txt inside each zip (English + Portuguese).
 
+## Updating from 1.0.0
+- Replace the mod's files (the client in Vortex; on a stopped server, the four files). On a dedicated server, update NPC Mechanics too (native 1.0.11 or pak-only 1.1.3, client 1.0.9).
+- Your world carries over: the first time it opens, the mod keeps a copy of the old save (&lt;world&gt;_HZX_v1.sav) and converts it by itself.
+- Every player needs the same version as the server.
+
 ## Uninstall
-- **Remove the mod's buildings first** (fire, task board, infirmary, cemetery, training area, cell): in build mode, hammer in hand, aim at the piece and hold the remove key (X). If you remove the mod with them still standing, they disappear and the materials don't come back.
-- Server: with the server stopped, delete the four NPCExpansion_Server_P files. Client: disable it in Vortex or remove the pak from ~mods.
-- Your world still opens. Recruited members stay in your clan.
+- Server: with the server stopped, delete the four NPCExpansion_Server_P files and **keep** &lt;world&gt;_HZX.sav (and its backup). Client: disable it in Vortex or remove the pak from ~mods.
+- Your world still opens. Recruited members stay in your clan; chests work as in the game again.
+- The mod's buildings don't exist without it: they stay saved in &lt;world&gt;_HZX.sav and come back in the same place if you reinstall the mod with that file. To get their materials back for good, remove them first (build mode, hammer in hand, aim at the piece).
+- Let trips and expeditions finish before removing the mod.
+- Going back to an older version of the mod with a save from a newer one is not supported.
 
 ## Known limitations
-- Performance near the larger settlements is heavier than I'd like. Optimization is coming in an update.
+- Performance near the larger settlements is heavier than I'd like. Version 1.1.1 brings optimizations, but they haven't been measured yet.
 - Dedicated servers were tested on Linux. Windows dedicated servers haven't been tested yet.
 - On a slope, one end of a gate can float slightly above the ground.
 - Map trees can poke through the roofs of settlement houses.
 - A new version of the mod can rebuild the faction settlements in new places (relationships, people and stories carry over).
+- In a map stable with an invisible block at the back, the horse stays closer to the entrance, still under the roof.
 
 ## Compatibility
-NPC Expansion changes very little of the game itself: BP_HmzPlayerController, BP_KaiHumanAI_Base and BTask_MoveToFriendly. Everything else is new content of its own. Other mods that replace those same assets may conflict (NPC Mechanics is made to work with it).
+NPC Expansion changes very little of the game itself: BP_HmzPlayerController, BP_KaiHumanAI_Base and BTask_MoveToFriendly. Everything else is new content of its own. Other mods that replace those same assets may conflict (NPC Mechanics is made to work with it). Since 1.1.1 it also works with mods that replace the player character, such as camera mods.
 
 ## Transparency: made with AI assistance
 This mod was developed with the help of AI tools, including the mod's translations (not reviewed by native speakers, so corrections are welcome) and the cover art at the top of this page, which is AI-generated illustration, not in-game footage. The screenshots on the Nexus page are from the actual game with the mod. I tested everything myself in single-player and on a dedicated server.
 
-## Feedback
-This is the first public release, so there will be rough edges. If something breaks, please leave a comment or a bug report with your game mode (single-player, hosted or dedicated, and server OS) and what happened. I'd love to hear the stories your world tells you.
+## Links and credits
+- GitHub (downloads with checksums): [github.com/Lionademais/humanitz-npc-expansion](https://github.com/Lionademais/humanitz-npc-expansion)
+- Interface font: Manrope, under the SIL Open Font License 1.1 (license file included in the zips).
 
-## Credits
-- Interface font: Manrope, licensed under the SIL Open Font License 1.1 (`OFL_Manrope.txt` is included in both zips).
+## Feedback
+Thank you to everyone who played 1.0.0 and reported problems: several of the fixes in 1.1.1 came from your comments. If something breaks, please leave a comment or a bug report with your game mode (single-player, hosted or dedicated, and server OS) and what happened. For a dedicated server, a full log helps: start it with `-HZXLog`. I'd love to hear the stories your world tells you.
