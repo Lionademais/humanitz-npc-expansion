@@ -1,5 +1,9 @@
 # NPC Expansion for HumanitZ
 
+> **Updated for HumanitZ 1.1Z.** NPC Expansion 1.1.1 is out, made for the HumanitZ 1.1Z update. Sorry for the wait: I've been very busy lately, and this update took longer than I wanted. Thank you for your patience!
+>
+> Updating from 1.0.0? Your world carries over (see below). The server and every player need the same version.
+
 > **The world was never empty. Now it's alive.**
 
 When HumanitZ 1.1 gave us survivors to recruit, I kept thinking: *where did these people come from?* Who were they with before they met me? Who's still out there?
@@ -23,17 +27,24 @@ None of it shows you a number. You find out how people feel by talking to them a
 Checksums: `SHA256SUMS.txt`. Source code will be added to this repository later.
 
 ## New in 1.1
-- **Clan life you can see:** members and residents follow a daily routine around the base, bonds form much sooner, and there is romance, marriage, clan anniversaries and a summary of what changed while you were away.
-- **Hygiene:** everyone gets dirty and showers at the base, and the new Latrine is one you actually step into and sit in, with a door you open and close.
-- **Horses, cars and dogs:** send a member home by car or on horseback, take a dog, horse or car on gathering tasks, go on group expeditions from the Task Board, and let a follower ride behind you on your horse.
-- **Followers:** a new command wheel to tell them to follow close, wait, defend, attack or avoid fights.
-- **Food, seasons and weather:** clan rations and feasts, a vegetable garden, seasons that change how communities eat, and weather that weighs on everyone's mood.
-- **Fears and trauma:** fears born from what happened fade with time, and a brush with death can leave a trauma, even tied to the place where it happened.
-- **Communities that change:** factions can split or be taken over from within, lend and borrow food, and refugees come asking for shelter at your gate.
+- **Clan life you can see:** members and residents follow a daily routine around the base, bonds form much sooner, members gossip, ask for things and get jealous, and you hear what changed while you were away.
+- **Romance and clan dates:** court a member yourself and marry, with a party by the fire. Clan dates mark a member's first month, the base's anniversary and a month since someone died, and every grave gets an epitaph.
+- **People who look after themselves:** NPCs use the bandages, food and water they carry and go looking for what they lack; the badly wounded check into the infirmary on their own.
 - **Justice:** hidden food, a fight that hurts someone or a betrayal becomes a case, and you decide what happens to the accused.
+- **Stories:** threads that pass through several people, short missions, promises you have to keep, secrets that come back, and habits born from what people live through.
+- **Fears and trauma:** fears born from what happened fade with time, and a brush with death can leave a trauma, even tied to the place where it happened.
+- **Hygiene:** everyone gets dirty and showers at the base, the new Latrine is one you actually step into and sit in, with a door you open and close, and "Look after the base" now refills the shower, tends the latrine, collects rainwater, refuels and repairs the clan's cars and feeds the animals.
+- **Followers:** a new command wheel to tell them to follow close, wait, defend, attack or avoid fights, and they ride behind you on your horse.
+- **Horses, cars and dogs:** send a member home by car or on horseback, take a dog, horse or car on gathering tasks, and send group expeditions from the Task Board.
+- **Food, seasons and weather:** clan rations and feasts, a vegetable garden, seasons that change how communities eat, and weather that weighs on everyone's mood.
+- **Communities that change:** factions can split or be taken over from within, lend and borrow food, and the handwritten residents now live like anyone else.
+- **Your gate:** outsiders stop at the gate and call instead of walking in, refugees ask for shelter, and a request for food accepts partial help.
 - **Random events** at your base, out in the world and in the communities.
+- **Task Board:** a Chests tab to choose who may take from each chest and each clan car, and to set rations and feasts; a Ranks tab for the leader; and notes that show what each stalled blueprint is still missing.
+- **Clans with more than one base:** newcomers, prison, events, raids, chests and visits work per base.
 - **New buildings:** Latrine, Car Spot and Gate Motor, with no limit per base.
 - **Save safety:** the mod's save is versioned and backed up before any conversion.
+- **Lighter and more compatible:** optimizations for the settlements and the server, and it now works with mods that replace the player character, such as camera mods.
 
 Full list in the [release notes](https://github.com/Lionademais/humanitz-npc-expansion/releases/tag/v1.1.1) and on the Nexus page (Logs tab).
 
@@ -41,8 +52,9 @@ Full list in the [release notes](https://github.com/Lionademais/humanitz-npc-exp
 - **Single-player and hosted games:** this mod alone. Everyone who joins a hosted game needs it too.
 - **Dedicated servers:** the server needs NPC Expansion and [**NPC Mechanics**](https://www.nexusmods.com/humanitz/mods/171) (native 1.0.11 or pak-only 1.1.3). Players need both clients: NPC Mechanics 1.0.9 and NPC Expansion. If the server is missing NPC Mechanics, players get a warning on screen.
 - The server and every player need the **same NPC Expansion version**.
-- Made for the HumanitZ update of 2026-11-12. After a game update, a new version of the mod may be needed.
+- Made for HumanitZ 1.1Z (the update of 2026-11-12). After a game update, a new version of the mod may be needed.
 - Back up your saves before installing, updating or removing.
+
 **Optional:** if you also use "Player and Vehicle Camera - Unlocked", grab the camera compatibility patch from the [NPC Mechanics page](https://www.nexusmods.com/humanitz/mods/171) (optional file; it needs the NPC Mechanics client).
 
 ## What it brings
@@ -50,8 +62,11 @@ Full list in the [release notes](https://github.com/Lionademais/humanitz-npc-exp
 ### Living communities
 - Factions with their own leader, government, food stores, weapons and flag. Iron-fisted rule, councils or assemblies, with coups and elections. Communities, nomads and raiders, different in every world.
 - Settlements built from the game's own building pieces and shaped by the land: palisade forts, farms, camps, caravans, trading posts, villages and raider dens. Walls follow the terrain, water and cliffs do the job of a wall, gates sit on the natural approach and towers on high ground.
-- People with names, faces and jobs: a spokesperson at the gate, a quartermaster who trades, guards on patrol, a watchman in the tower, a night watch by the fire and a dog that barks at strangers. They change shifts with the time of day.
-- Real food stores. When the pantry runs low, people go hungry and it shows: expeditions that don't always come back, requests, trades, neighbors sharing food, raiders preying on the weak.
+- People with names, faces and jobs: a spokesperson at the gate, a quartermaster who trades, guards on patrol, a watchman in the tower, a night watch by the fire and a dog that barks at strangers. They change shifts with the time of day and go about their day around the settlement.
+- Handwritten residents with their own stories live like anyone else: they can fall ill, die, be recruited, become refugees or leave in a split.
+- Real food stores. When the pantry runs low, people go hungry and it shows: expeditions that don't always come back, requests, trades, loans, neighbors sharing food, raiders preying on the weak.
+- The seasons weigh on them: winter brings hunger, and in autumn they put away a hidden reserve.
+- Communities can split or be taken over from within. There are signs first, and the people who leave take their families and found a community with its own name, leader and character, as friends or as enemies of the old one.
 - People come and go: newcomers arrive over time, the sick are treated or sent away, and someone bitten and cast out may end up at your gate asking for help.
 - After an attack, a settlement shows the damage (broken walls, fallen towers, graves) and slowly rebuilds itself.
 - It all keeps happening when you're not around.
@@ -63,17 +78,27 @@ Full list in the [release notes](https://github.com/Lionademais/humanitz-npc-exp
 - Steal and get seen, and the guards come and the gate closes on you. Steal unseen, and they only suspect.
 
 ### Talking to people
-- A new conversation screen with portrait, relationship bars, health and mood, and a history of what each person has said to you.
+- A new conversation screen with portrait, relationship bars, a row of icons for wounds, bites, sickness, hunger, thirst and mourning, the traumas your clan knows about, and a history of what each person has said to you.
 - Ask about their past, their likes, their skills, the people who matter to them, and the news. Every person has a favorite gift, and the wrong gift can offend.
+- Threads: short stories that pass through several people, where who you talk to and what you answer changes where they go. Short missions, promises with deadlines and secrets that come back.
+- A "Personal" group: pay a compliment, spend a moment by the fire, and, if it gets there, romance.
 - Tend their wounds, threaten them, or trade with them, with prices that depend on how they feel about you. The trader tells you what people are saying about you.
 - Ask a stranger to explore with you: they walk at your side for a while and trust grows as you stay together.
 - Recruit almost anyone, if they trust you more than their own people. Some refuse and tell you why.
-- Give orders to your members: follow me, stay here, keep watch, move to another camp, go back to base by car or on horseback. Followers ride in your car or behind you on your horse. Some refuse an order out of fear or principle.
+- Give orders to your members: follow me, stay here, keep watch, move to another camp, go back to base by car or on horseback, stay in the infirmary until better. Some refuse an order out of fear or principle.
+
+### Followers, horses, cars and dogs
+- A command wheel for your followers: follow close, wait here, defend, attack or avoid fights. Each one remembers their stance.
+- Followers ride in your car or behind you on your horse, getting on and off with the game's own animations.
+- Send a member home by car or on horseback: they walk to the vehicle and head back along the road. The car only goes if it starts and burns fuel; the horse comes in through the main gate and goes to the stable.
+- On gathering tasks, each member can take a clan dog, horse or car: the dog makes it safer, the horse and the car make it faster and bring back more.
+- Group expeditions from the Task Board: several members go out together on foot or in one vehicle, with the dog if you like, and you see them leave and come home.
 
 ### Relationships and diplomacy
 - Every person and every faction remembers you: trust, affection, respect and favors owed, slowly fading if you disappear.
 - Rumors travel between settlements. Help one and its neighbors hear about it. Betray one and they hear that too.
 - Through the spokesperson or a radio: donate supplies, propose agreements and alliances, ask for reinforcements, ask a friend to strike a rival, ask for someone to join you, or ask how things are going.
+- Favors and loans: a community in a tight spot asks to borrow food or medicine and pays back on time, late, or not at all. Your clan can borrow too, and then it owes.
 - The world reaches out too: requests for food, threats, deserters, broken agreements, calls for help.
 - Family ties across settlements: news of relatives living elsewhere, and a relative in your clan makes an invitation easier.
 
@@ -88,32 +113,40 @@ Full list in the [release notes](https://github.com/Lionademais/humanitz-npc-exp
 - Feed them, interrogate them, lock them in your clan's cell, offer them a place in your group, or let them go. They can try to escape.
 
 ### New buildings for your clan
-Built through the game's own building menu (Community tab), with the hammer and the game's materials, like any other piece. No limit per base: every extra building adds capacity.
+Built through the game's own building menu (Community tab), with the hammer and the game's materials, like any other piece. No limit per base: every extra building adds capacity. Who in the clan can use and remove each one depends on their rank.
+
 - **Gathering fire:** at night, people off duty gather around it, tell their stories and hold vigils for the dead. Feasts and weddings happen around it. It needs firewood.
-- **Task board:** assign who does what on each shift, send group expeditions, choose who may take from each chest, set the clan ration and feasts, and read the base's notices.
-- **Infirmary:** beds for the worst injured or infected, with a caretaker from your people.
+- **Task board:** assign who does what on each shift, send group expeditions, choose who may take from each chest and each clan car, set the clan ration and feasts, and read the base's notes, including what each stalled blueprint is missing.
+- **Infirmary:** beds for the worst injured or infected, with a caretaker from your people. The badly wounded are admitted on their own and stay until they are better.
 - **Clan cemetery:** the names of your dead, each with an epitaph from their life, visited by those who grieve.
 - **Training area:** members practice their craft, and a master can mentor an apprentice.
 - **Prison cell:** where your prisoners stay.
-- **Latrine:** step inside, sit down and close the door. Without one, the base gets dirty faster.
+- **Latrine:** step inside, sit down and close the door. Your people use it too and wait their turn. Without one, the base gets dirty faster.
 - **Car spot:** where your clan's cars park when they come home.
 - **Gate motor:** opens the gate by itself for your clan's cars and horses. It needs power.
 - Members assigned to keep watch climb your watchtowers and see trouble coming sooner.
 
 ### A clan that is a community
 - Your people bond, fall in love, become rivals, start families and grieve their losses. You can court one of them yourself, and even marry.
+- A daily routine you can see: members go about the base following what they like and fear, look after themselves, and tell you what changed while you were away.
+- Clan dates: a member's first month in the clan, the base's anniversary, and a month since someone died.
 - They train their crafts and become experts and masters. Two who get along well do better work together.
+- Fears born from what happened fade with time; a brush with death can leave a trauma, sometimes tied to the place where it happened.
 - Unhappy members may leave. Jealousy, grief and fear show in what they say.
+- When someone hides food, hurts another in a fight or betrays the clan, the victim asks for justice and you decide.
+- Clan rations and feasts, a vegetable garden, and weather that weighs on everyone's mood.
 - Choose which chests your members use for food and supplies, and who may take from each one.
-- Everyone gets dirty and showers at the base. Keep it clean, or live with trash, rats, flies, sickness and the zombies the smell brings in.
-- Visitors knock at your gate. Let them in, turn them away, or help them on their way.
+- Everyone gets dirty and showers at the base. Keep it clean with the "Look after the base" task or the game's broom, or live with trash, rats, flies, sickness and the zombies the smell brings in.
+- Visitors stop at your gate and call. Let them in, turn them away, or help them on their way. Refugees, sometimes whole families, ask for shelter.
+- Clans with more than one base: newcomers go to their preferred base or the nearest one with room, and prison, events, raids, chests and visits work per base.
 - A clan diary where everything that happens becomes a line of your story.
 
 ### And more
 - Over forty new personality traits (likes, fears, ambitions, values), discovered through conversation and by watching people.
+- Random events at your base, out in the world and in the communities.
 - Radio: listen for rumors, call out to survivors (sometimes the wrong people answer), call a trader, or talk to the communities whose frequency you've earned. Storms bring static.
 - Speech bubbles over people's heads, and a new Community tab with overview, members, relations and clan.
-- Admin settings in game to tune events, raids, sieges, conflicts, memory, newcomers, sickness and more for your world. By default nothing from the mod is marked on the map; an admin can turn that on.
+- Admin settings in game to tune events, raids, sieges, conflicts, memory, newcomers, sickness, food in the communities and more for your world. By default nothing from the mod is marked on the map; an admin can turn that on.
 - Ten languages, following your game language. Players with different languages on the same server each see their own.
 
 ## Installation
